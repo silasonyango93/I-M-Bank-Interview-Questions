@@ -22,6 +22,9 @@ import java.util.Arrays;
 public class BinarySearch {
 	public static int key_index=-1;
 
+	
+	
+	/*This is the begining of the binary search function*/
 	public static int binarySearch(int arr[],int key){ 
 		   int last=arr.length-1;
 		   int first=0;
@@ -47,7 +50,11 @@ public class BinarySearch {
 		   
 		   return key_index;
 		 }  
-		 
+		 /*This is the end of the binary search function*/
+	
+	
+	
+	
 	
 	     public static void main(String args[]){ 
 			    //Try with different values 
