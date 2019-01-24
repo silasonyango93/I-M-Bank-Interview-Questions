@@ -15,6 +15,8 @@ public class GetPrime {
 
 	}
 	
+	
+	/*Below is the isPrime() function*/
 	public static boolean isPrime(int num) {
 		if(num<=3 && num>1) {isNumPrime=true;}
 		  else if(num%2==0||num%3==0) {isNumPrime=false;}
@@ -26,5 +28,6 @@ public class GetPrime {
 		
 		return isNumPrime;
 	}
+	/*End of isPrime() function*/
 
 }
